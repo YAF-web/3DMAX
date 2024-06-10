@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/second.css">
+    <style>
+        video {
+            border: 2px solid #937D60;
+            width: 100%;
+            height: 500px;
+            margin: 30px auto;
+        }
+
+        form {
+            background-color: #F3E8D6;
+            width: 100%;
+            height: 300px;
+        }
+
+        ul {
+            /* background-color: aqua; */
+            width: 50%;
+            height: 500px;
+            margin: 10px auto;
+        }
+
+        form ul>li {
+            /* margin-top: 10px au; */
+            margin-top: 30px;
+            margin-left: 50px;
+            border-bottom: 2px solid #937D60;
+        }
+
+        textarea {
+            border: none;
+            width: 500px;
+        }
+
+        .ppt-iframe {
+            width: 10%;
+            height: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="./img/banner.jpg" alt="">
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">网站首页</a></li>
+            <li><a href="second.html">关于《关雎》</a></li>
+            <li><a href="thrid.html">联系我们</a></li>
+        </ul>
+    </div>
+    <div class="second_c">
+        <video width="640" height="360" controls>
+            <source src="img/WeChat_20240610194107.mp4" type="video/mp4">
+            <source src="shanghai.ogg" type="video/ogg">
+            您的浏览器不支持视频标签。
+        </video>
+
+        <a style="width: 50px; height: 50px; color: #937D60; border: #937D60 2px solid; border-radius: 15px; margin-bottom: 20px;"
+            href="./img/WeChat_20240610194107.zip">点击下载视频</a>
+        <br><br>
+        <a href="./img/信息化教学设计《关雎》.pptx"><img src="./img/ppt.png" alt="" style="width: 100%;;"></a>
+        </iframe>
+
+        <form action="#">
+            <ul>
+                <li>
+                    请描述您的问题：<br><br>
+                    <textarea id="story" name="story" rows="5" cols="33">
+                        问题描述...
+                        </textarea>
+                </li>
+                <li style="  margin-top: 30px;
+            margin-left: 50px;">
+                    您为该网站打几分：
+                    <input type="radio" name="source">5分<input type="radio" name="source">4分<input type="radio"
+                        name="source">3分<input type="radio" name="source">2分<input type="radio" name="source">1分
+                </li>
+            </ul>
+
+        </form>
+    </div>
+
+    <div class="footer" style="margin-top: 900px;">
+        <p>地址：xx市xxx路x号市政府大院x号楼 邮编：xxx000 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+        <p>xICP备xxxxxx号x公网安备xxxxx8007702</p>
+    </div>
+</body>
+
+</html>

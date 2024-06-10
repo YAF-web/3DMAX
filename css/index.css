@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EDE2D0;
+
+}
+
+.banner {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(to right, #F3E8D6, #B0BBAA);
+}
+
+.banner>img {
+    display: block;
+    height: 420px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: #937D60;
+}
+
+.nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul li {
+    height: 100%;
+    width: 200px;
+    color: white;
+    font-weight: 700;
+    /* font-size: 20px; */
+    background-color: #937D60;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main {
+    width: 100%;
+    height: 1030px;
+}
+
+.main .contain {
+    width: 1237px;
+    height: 100%;
+    margin: 30px auto;
+    /* background-color: rgb(255, 241, 213); */
+    /* margin: 20px auto; */
+}
+
+.main .contain .c1 {
+    width: 100%;
+    height: 365px;
+    background-color: #fdffe6;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.main .contain .c1 #f {
+    float: left;
+}
+
+.main .contain .c1 .c1_right {
+    width: 630px;
+    height: 100%;
+}
+
+.main .contain .c1 .c1_left {
+    width: 607px;
+    height: 100%;
+    /* background-color: rgb(129, 228, 195); */
+}
+
+.c1_box {
+    height: 100%;
+    width: 95%;
+    padding-left: 20px;
+    /* background-color: #EDE2D0; */
+}
+
+.r_title {
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid #937D60;
+    color: #937D60;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.r_text {
+    width: 100%;
+    /* padding-left: 20px; */
+}
+
+.c1_left ul li {
+    float: left;
+    margin: 60px 20px;
+}
+
+.c1_left ul li:nth-child(2) {
+    margin-top: 130px;
+}
+
+.c1_left ul li>img:hover {
+    width: 180px;
+}
+
+.c2_title {
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+}
+
+.pic ul li {
+    float: left;
+    margin-top: 120px;
+    margin-left: 85px;
+}
+
+.pic ul li>img:hover {
+    width: 250px;
+}
+
+.footer {
+    margin-top: 350px;
+    width: 100%;
+    height: 100px;
+    background-color: #937D60;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
